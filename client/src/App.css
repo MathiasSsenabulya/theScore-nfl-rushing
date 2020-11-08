@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+  background: #000;
+  color: #F9F9F9;
+  font-family: Roboto;
+  font-weight: 700;
+  margin: 0 auto;
+  height: 100%;
+  box-sizing: border-box;
+  min-height: 100%;
+  padding: 2em;
+}
+
+.page-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  background: #1E1F21;
+  height: 60px;
+}
+
+.menu-score-logo {
+  background: url('./thescore-logo.png') 0 2px no-repeat;
+  background-size: 110px;
+  background-position: center;
+  width: 110px;
+}
+
+.menu-hamburger {
+  width: 30px;
+  align-self: center;
+}
+
+.menu-item {
+  align-self: center;
+}
+
+.menu-item-selected {
+  align-self: center;
+  border-bottom: 3px solid #0078FD;
+}
+
+.menu-button {
+  background-color: #0078FD;
+  align-self: center;
+  padding: 10px 10px 1px 10px;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+.page-title {
+  height: 2rem;
+  padding: 25px 10px 5px 10px;
+}
+
+.csv-download {
+  background-position: center;
+}
+
+.list-options {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 10px 0px;
+}
+
+.more-stats {
+  text-align: center;
+  margin: 0px 10px 100px 10px;
+}
+
+.stats-header-cell {
+  width: 75px;
+  color: #ACACAD;
+}
+
+.stats-header-cell-sortable {
+  width: 75px;
+  padding: 8px 0;
+}
+
+.Rtable-cell > h1,
+.Rtable-cell > h2,
+.Rtable-cell > h3,
+.Rtable-cell > h4,
+.Rtable-cell > h5,
+.Rtable-cell > h6 {
+  margin: 0;
+}
+
+.Rtable {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 3em 0;
+  padding: 0;
+  }
+
+.Rtable-cell {
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+  width: 100%;
+  padding: 0.8em 1.2em;
+  overflow: hidden;
+  list-style: none;
+}
+    
+.Rtable-cell--head {
+  background: #1E1F21;
+  color: #ACACAD;
+}
+
+.Rtable--15cols > .Rtable-cell {
+  width: 6.6%;
+}
+
+html {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+h3 {
+  font-size: 1.2em;
+}
+h4 {
+  font-size: 1em;
+}
