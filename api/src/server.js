@@ -28,7 +28,7 @@ app.get('/api/rushing', (req, res) => {
   }
   if (req.query.player) {
     const foundIndex = statsWithKeys
-      .filter(key => rushingStats[key]["Player"] === req.query.player)[0]
+      .filter( (key) => rushingStats[key]["Player"].toUpperCase() === req.query.player.toUpperCase() )[0]
     playerStats = [rushingStats[foundIndex]];
   }
   else if (req.query.sortBy) {

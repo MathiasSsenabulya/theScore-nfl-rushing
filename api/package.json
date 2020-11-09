@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "API For Rushing Stats app",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/MathiasSsenabulya/theScore-nfl-rushing"
+  },
   "scripts": {
     "dev": "node ./src/server.js"
   },
